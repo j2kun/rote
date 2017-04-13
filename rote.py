@@ -87,7 +87,6 @@ class Rote(object):
                 else:
                     print('Skipping {}'.format(item))
 
-            print(chr(27) + "[2J")
             if foreach:
                 foreach(item, self.accumulator)
 
